@@ -15,7 +15,7 @@ deploy:
 serverless deploy -v --stage dev
 
 deploy only the lambda:
-erverless deploy -f uploadAuctionPicture
+serverless deploy -f uploadAuctionPicture
 
 monitor logs:
 serverless logs -f uploadAuctionPicture -t
